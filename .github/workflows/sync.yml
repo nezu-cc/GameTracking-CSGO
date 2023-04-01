@@ -1,0 +1,17 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Sync to Upstream Repository
+        uses: dabreadman/sync-upstream-repo@v1.3.0
+        with: 
+          upstream_repo: "https://github.com/SteamDatabase/GameTracking-CSGO.git"
+          upstream_branch: "master"
+          token: ${{ secrets.GITHUB_TOKEN }}
