@@ -123046,3 +123046,9 @@ panorama/images/econ/status_icons/maptoken_warden_png.vtex
 panorama/images/econ/status_icons/maptoken_warden_small_png.vtex
 materials/models/inventory_items/music_kit/label_cs2.vmat
 materials/models/inventory_items/music_kit/label_cs2_color_psd_ad840642.vtex
+panorama/images/econ/status_icons/maptoken_golden_png.vtex
+panorama/images/econ/status_icons/maptoken_golden_small_png.vtex
+panorama/images/econ/status_icons/maptoken_palacio_png.vtex
+panorama/images/econ/status_icons/maptoken_palacio_small_png.vtex
+panorama/images/econ/status_icons/maptoken_rooftop_png.vtex
+panorama/images/econ/status_icons/maptoken_rooftop_small_png.vtex
